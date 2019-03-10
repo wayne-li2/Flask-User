@@ -73,7 +73,7 @@ setup(
     zip_safe=False,    # Do not zip as it will make debugging harder
 
     python_requires='>=2.6, !=3.0.*, !=3.1.*, !=3.2.*',   # Python 2.6, 2.7, 3.3+
-    setup_requires=['Flask-Login',] + pytest_runner,
+    setup_requires=pytest_runner,
     install_requires=[
         'bcrypt>=2.0',
         'cryptography>=1.6',
