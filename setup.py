@@ -3,7 +3,7 @@ from setuptools import setup
 
 __title__       = 'Flask-User-AWS'
 __description__ = 'Flask-User but for AWS.'
-__version__     = '1.0.1.6'
+__version__     = '1.0.1.7'
 __url__         = 'https://github.com/wayne-li2/Flask-User'
 __author__      = 'Ling Thio'
 __author_email__= 'ling.thio@gmail.com'
